@@ -1,9 +1,4 @@
-type Student = {
-    firstName: string;
-    lastName: string;
-    age: number;
-    grades: (number | string | undefined)[];
-}
+import {Student} from "./student.ts";
 
 const student1: Student = {
     firstName: "Anton",
